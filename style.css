@@ -511,10 +511,58 @@ main {
 }
 
 .user-info img {
-  width: 40px;
+  width: 45px;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 5;
+    border-radius: 10px;
+    
+}
+ .user-dropdwn {
+ display: flex;
+ align-items: center;
+ margin: 10px;
+ }
+
+ .dropdown-content hr {
+ border: 0;
+ height: 1px;
+ width: 100%;
+ background: #ccc;
+ margin: 5px 0 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sub-menu-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px;
+  color: #333;
+}
+.sub-menu-link img {
+  width: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.sub-menu-link:hover {
+  font-weight: 650;
+}
+
 
 /* ACTIVE CALORIES  */
 
@@ -922,8 +970,8 @@ main {
   .right-content {
     grid-area: rightContent;
 		grid-template-rows: 5% 40% 50%;
-    margin: 15px 15px 0 15px;
-    padding: 10px 0 0;
+    margin: 10px 10px 0 10px;
+    padding: 5px 0 0;
     gap: 15px;
   }
 
