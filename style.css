@@ -34,9 +34,16 @@ body {
   background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: white;
+  color: black;
 	/* background: #212140; */
 }
 
+body.dark-theme 
+{
+  background-color: black;
+  color: white;
+}
 /* MAIN MENU */
 
 main {
@@ -494,27 +501,9 @@ main {
 
 /* USER INFO */
 
-.user-info {
-  display: grid;
-  grid-template-columns: 30% 55% 15%;
-  align-items: center;
-  padding: 0 10px;
-}
 
-.icon-container {
-  display: flex;
-  gap: 15px;
-}
 
-.user-info h4 {
-  margin-left: 40px;
-}
 
-.user-info img {
-  width: 45px;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-}
 
 
 /* Dropdown content (hidden by default) */
@@ -524,7 +513,7 @@ main {
     background-color: #f9f9f9;
     min-width: 250px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 5;
+    z-index: 6;
     border-radius: 10px;
     
 }
@@ -545,22 +534,6 @@ main {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.sub-menu-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  margin: 15px;
-  color: #333;
-}
-.sub-menu-link img {
-  width: 35px;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-}
-.sub-menu-link:hover {
-  font-weight: 650;
 }
 
 

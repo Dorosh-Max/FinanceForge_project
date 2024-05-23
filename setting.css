@@ -156,3 +156,74 @@ main {
   width: 120px;
   height: 20px;
 }
+
+
+
+
+
+
+
+
+.container {
+  width: 35%;
+  margin: 50px auto;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: rgb(73, 57, 113);;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(73, 57, 113);;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: rgb(73, 57, 113);;
+}
+
+
+
+
+
+
+
