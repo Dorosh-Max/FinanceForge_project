@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@300;400;500;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@300;400;500;700&display=swap");
 
 *,
 *::before,
@@ -43,9 +43,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 13% 87%;
-  grid-template-rows: 102%;
-  width: 93%;
-  height: 87vh;
+  width: 100%;
   margin: 40px;
   background: rgb(254, 254, 254);
   box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
@@ -60,7 +58,6 @@ main {
   padding-top: 10px;
   border-radius: 15px 0 0 15px;
   font-family: "Roboto", sans-serif;
-  height: 100%;
 }
 
 .main-menu h1 {
